@@ -1,0 +1,58 @@
+{
+ "id": "Borderlands2",
+ "exe_name": "BL2Arabic",
+ "github": "OSAMAxALHARBI/Borderlands2-Arabic",
+ "site_url": "https://iosamai.com/game.html?g=borderlands-2",
+ "name": {
+  "ar": "بوردرلاندز 2",
+  "en": "Borderlands 2"
+ },
+ "platform": {
+  "ar": "ستيم",
+  "en": "PC (Steam)"
+ },
+ "backup_dir": "BL2-Arabic-backup",
+ "patch_root": "",
+ "steam_dir": "Borderlands 2",
+ "must_have": [
+  "Binaries/Win32/Borderlands2.exe",
+  "WillowGame/CookedPCConsole/Startup.upk"
+ ],
+ "close_processes": [
+  "Borderlands2"
+ ],
+ "folder_label": {
+  "ar": "مجلد اللعبة (اللي فيه مجلد Binaries)",
+  "en": "Game folder (the one with the Binaries folder)"
+ },
+ "folder_hint": {
+  "ar": "اختر مجلد Borderlands 2 في مكتبة ستيم، مثل steamapps\\common\\Borderlands 2.",
+  "en": "Choose the Borderlands 2 folder in your Steam library, for example steamapps\\common\\Borderlands 2."
+ },
+ "mismatch": {
+  "ar": "التعريب مسوّى لنسخة ستيم رقم 9218157. في ستيم: خصائص اللعبة ← الملفات المثبتة ← التحقق من سلامة ملفات اللعبة، وبعدين ثبّت التعريب.",
+  "en": "The translation is made for Steam build 9218157. In Steam: Properties > Installed Files > Verify integrity of game files, then install the translation."
+ },
+ "before": {
+  "ar": "سكّر اللعبة. ملفات الإضافات (DLC) تتعرّب بس إذا كانت مثبّتة عندك.",
+  "en": "Close the game. DLC text is translated only for the DLC you have installed."
+ },
+ "requirements": [
+  {
+   "ar": "نسخة ستيم من اللعبة، رقم البناء 9218157.",
+   "en": "The Steam version of the game, build 9218157."
+  }
+ ],
+ "links": [],
+ "after_install": [
+  {
+   "ar": "شغّل اللعبة وخل لغتها على الإنجليزية.",
+   "en": "Start the game with the language set to English."
+  },
+  {
+   "ar": "إذا حدّثت ستيم اللعبة، افتح هذا البرنامج وثبّت التعريب مرة ثانية.",
+   "en": "If Steam updates the game, open this program and install the translation again."
+  }
+ ],
+ "version": "1.0"
+}

@@ -10,15 +10,17 @@
 حمّل الملف `Borderlands2-Arabic-1.0.zip` من صفحة [Releases](../../releases/latest).
 
 ## التثبيت
-1. فك الضغط عن الملف في أي مكان، مثلًا داخل مجلد اللعبة.
-2. اضغط بزر الفأرة الأيمن على `Install.ps1` واختر **Run with PowerShell**.
-3. شغّل اللعبة واترك لغتها على الإنجليزية.
+1. سكّر اللعبة، وفك ضغط الملف في أي مكان.
+2. افتح `BL2Arabic.exe`. إذا طلعت رسالة "Windows protected your PC" اضغط More info ثم Run anyway (البرنامج مو موقّع رقميًا).
+3. اختر مجلد اللعبة (البرنامج يلقاه بنفسه غالبًا) واضغط «ثبّت التعريب».
+4. شغّل اللعبة واترك لغتها على الإنجليزية.
 
-إذا حدّثت Steam اللعبة: شغّل `Install.ps1` مرة أخرى.
+إذا حدّثت Steam اللعبة: افتح `BL2Arabic.exe` وثبّت التعريب مرة ثانية.
 
 ## الإزالة
-اضغط بزر الفأرة الأيمن على `Uninstall.ps1` واختر **Run with PowerShell**. يرجع كل ملف إلى أصله.
-يحفظ المثبّت نسخة من كل ملف يغيّره في مجلد `BL2-Arabic-backup` داخل مجلد اللعبة.
+افتح `BL2Arabic.exe` واضغط «أزل التعريب». يرجع كل ملف إلى أصله.
+يحفظ البرنامج نسخة من كل ملف يغيّره في مجلد `BL2-Arabic-backup` داخل مجلد اللعبة.
+إذا برنامج الحماية منع `BL2Arabic.exe`: ملفات `Install.ps1` و `Uninstall.ps1` تسوي نفس الشي (كليك يمين ← Properties ← Unblock، وبعدين كليك يمين ← Run with PowerShell).
 
 ## يبقى بالإنجليزية
 أسماء المناطق التي تظهر عند دخولها (مكتوبة داخل خرائط اللعبة)، الأسماء التجارية، وقائمة المطورين.
@@ -35,14 +37,18 @@ subtitles, loading screens, weapons, enemies, skills and challenges.
 **Download:** `Borderlands2-Arabic-1.0.zip` from [Releases](../../releases/latest).
 
 **Install**
-1. Extract the zip anywhere, for example inside the game folder.
-2. Right-click `Install.ps1` and choose **Run with PowerShell**.
-3. Start the game with the language set to English.
+1. Close the game and extract the zip anywhere.
+2. Open `BL2Arabic.exe`. If "Windows protected your PC" appears, click More info, then Run anyway (the program is not
+   digitally signed).
+3. Choose the game folder (the program usually finds it) and click "Install".
+4. Start the game with the language set to English.
 
-If Steam updates the game, run `Install.ps1` again.
+If Steam updates the game, open `BL2Arabic.exe` and install the translation again.
 
-**Uninstall:** right-click `Uninstall.ps1` and choose **Run with PowerShell**. Every original file is put back.
-The installer keeps a copy of every file it changes in `BL2-Arabic-backup` inside the game folder.
+**Uninstall:** open `BL2Arabic.exe` and click "Uninstall". Every original file is put back.
+The program keeps a copy of every file it changes in `BL2-Arabic-backup` inside the game folder.
+If your antivirus blocks `BL2Arabic.exe`: `Install.ps1` and `Uninstall.ps1` do the same (right-click > Properties >
+Unblock, then right-click > Run with PowerShell).
 
 **Still in English:** area names shown when you enter an area (they are written inside the game's maps), brand
 names, and the credits.
@@ -50,10 +56,10 @@ names, and the credits.
 Works with the Steam version (build 9218157).
 
 ### How it works
-No `.exe` is included. The game checks two of its packages against hashes stored in `Borderlands2.exe`;
-`Install.ps1` finds those two entries in your own copy of the exe, checks that they hold the original values, backs
+The game checks two of its packages against hashes stored in `Borderlands2.exe`; the installer
+(`BL2Arabic.exe`, source in [`app`](app); or `Install.ps1`) finds those two entries in your own copy of the exe, checks that they hold the original values, backs
 the exe up and writes the new values. The other files (two font packages and the text files) are copied in after
-the originals are backed up. The scripts in this repository are the same ones that are inside the zip.
+the originals are backed up. The scripts and the program's source in this repository are the same ones that are inside the zip.
 
 ### Credits
 - Translation: Osama (iOsamai)
