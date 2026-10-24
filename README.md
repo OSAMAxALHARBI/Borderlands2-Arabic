@@ -6,6 +6,8 @@
 
 **يشمل:** القوائم، المهمات، الحوارات والترجمة المصاحبة، شاشات التحميل، الأسلحة والأعداء والمهارات والتحديات.
 
+🌐 **صفحة التعريب على موقعي:** [iosamai.com/borderlands-2](https://iosamai.com/borderlands-2/) · كل تعريباتي: [iosamai.com](https://iosamai.com/)
+
 ## التحميل
 حمّل الملف `Borderlands2-Arabic-1.0.zip` من صفحة [Releases](../../releases/latest).
 
@@ -33,6 +35,8 @@
 
 Arabic translation of Borderlands 2 (Steam): the base game and every installed DLC: menus, missions, dialogue and
 subtitles, loading screens, weapons, enemies, skills and challenges.
+
+🌐 **Translation page:** [iosamai.com/en/borderlands-2](https://iosamai.com/en/borderlands-2/) · all my translations: [iosamai.com/en](https://iosamai.com/en/)
 
 **Download:** `Borderlands2-Arabic-1.0.zip` from [Releases](../../releases/latest).
 
