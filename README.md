@@ -9,7 +9,7 @@
 🌐 **صفحة التعريب على موقعي:** [iosamai.com/borderlands-2](https://iosamai.com/borderlands-2/) · كل تعريباتي: [iosamai.com](https://iosamai.com/)
 
 ## التحميل
-حمّل الملف `Borderlands2-Arabic-1.0.zip` من صفحة [Releases](../../releases/latest).
+حمّل الملف `Borderlands2-Arabic-1.1.zip` من صفحة [Releases](../../releases/latest).
 
 ## التثبيت
 1. سكّر اللعبة، وفك ضغط الملف في أي مكان.
@@ -38,7 +38,7 @@ subtitles, loading screens, weapons, enemies, skills and challenges.
 
 🌐 **Translation page:** [iosamai.com/en/borderlands-2](https://iosamai.com/en/borderlands-2/) · all my translations: [iosamai.com/en](https://iosamai.com/en/)
 
-**Download:** `Borderlands2-Arabic-1.0.zip` from [Releases](../../releases/latest).
+**Download:** `Borderlands2-Arabic-1.1.zip` from [Releases](../../releases/latest).
 
 **Install**
 1. Close the game and extract the zip anywhere.
@@ -63,9 +63,10 @@ Works with the Steam version (build 9218157).
 The game checks two of its packages against hashes stored in `Borderlands2.exe`; the installer
 (`BL2Arabic.exe`, source in [`app`](app); or `Install.ps1`) finds those two entries in your own copy of the exe, checks that they hold the original values, backs
 the exe up and writes the new values. The other files (two font packages and the text files) are copied in after
-the originals are backed up. The scripts and the program's source in this repository are the same ones that are inside the zip.
+the originals are backed up. The zip includes the scripts and the compiled program; the program's source is in [`app`](app).
 
 ### Credits
 - Translation: Osama (iOsamai)
 - Arabic font: IBM Plex Sans Arabic, SIL Open Font License 1.1 (`licenses/OFL-IBMPlexSansArabic.txt`)
+- Installer font: Readex Pro, SIL Open Font License 1.1 (`licenses/OFL-ReadexPro.txt`)
 - Borderlands 2 © Gearbox Software / 2K. This is an unofficial fan translation. You need your own copy of the game.
